@@ -13,12 +13,14 @@ namespace WebApi.Controllers
             static public string ByNone  = "None";
         }
 
+        // GET
         [HttpGet]
         public ActionResult<string> Get()
         {
             return Answer.ByNone;
         }
 
+        // GET with arg
         [HttpGet("{arg}")]
         public ActionResult<string> Get(int arg)
         {

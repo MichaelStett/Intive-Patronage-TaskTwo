@@ -8,8 +8,7 @@ namespace WebApi.Models
         public long Id  { get; set; }
         public long RoomNr { get; set; }
         public bool IsRented { get; set; }
-        public string RenterName { get; set; }
-        
+        public string RenterName { get; set; }        
     }
 
     // Database 
